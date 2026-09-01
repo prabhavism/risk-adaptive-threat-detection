@@ -1,0 +1,18 @@
+# Data & model artifacts — too large/binary for git, share via Drive or Git LFS
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+*.pcap
+*.h5
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# OS
+.DS_Store
